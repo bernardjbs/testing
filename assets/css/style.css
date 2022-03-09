@@ -1,0 +1,31 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+#quiz, #answers {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#answers {
+    /* border: 1px solid red; */
+    width: 30%;
+}
+
+.answersBtn {
+    padding: 1em;
+    margin: 1em;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
