@@ -72,8 +72,6 @@ function checkAns(clicked_id) {
     }
 }
 
-
-
 function timer() {
     timerInterval = setInterval(function () {
         log("i am here");
@@ -103,6 +101,11 @@ function saveHighScores() {
     }
 
     let highScoresParsed = JSON.parse(localStorage.getItem("highScores"));
+
+    let game = {
+        name: initialInput.value,
+        score: score
+    }
 
     if (highScoresParsed != null) {
         alert("games array is not empty... push and assign highscoresArr = highScoresParsed")
